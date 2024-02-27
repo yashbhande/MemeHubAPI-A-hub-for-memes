@@ -1,0 +1,93 @@
+/* Style rules for the meme generator container */
+.meme-generator {
+  /* Set font family */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* Center align text */
+  text-align: center;
+}
+
+/* Style rules for the meme image */
+.meme-generator img {
+  /* Set height of the image */
+  height: 430px;
+  /* Ensure image covers its container */
+  object-fit: cover;
+  /* Add a subtle border */
+  border: 2px solid #ddd;
+  /* Add rounded corners */
+  border-radius: 8px;
+  /* Add a shadow effect */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* Add smooth transition for border color and transform */
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+/* Style rules for the meme image on hover */
+.meme-generator img:hover {
+  /* Darken border color on hover */
+  border-color: #aaa;
+  /* Scale up on hover */
+  transform: scale(1.05);
+}
+
+/* Style rules for the meme title */
+.meme-generator .meme-title {
+  /* Add margin bottom */
+  margin-bottom: 20px;
+  /* Add a lighter border */
+  border: 2px solid #ccc;
+  /* Add rounded corners */
+  border-radius: 5px;
+  /* Add padding */
+  padding: 10px;
+  /* Add a shadow effect */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style rules for the meme author */
+.meme-generator .meme-author {
+  /* Add margin */
+  margin: 8px;
+  /* Add a lighter border */
+  border: 2px solid #ccc;
+  /* Add rounded corners */
+  border-radius: 5px;
+  /* Add padding */
+  padding: 10px;
+  /* Add a shadow effect */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style rules for the generate meme button */
+.meme-generator .generate-meme-btn {
+  /* Add padding */
+  padding: 8px 20px;
+  /* Add left and right border */
+  border-left: 4px solid #222;
+  border-right: 4px solid #222;
+  /* Add margin */
+  margin: 24px 0;
+  /* Set font size */
+  font-size: 20px;
+  /* Set text color */
+  color: red;
+  /* Set background color */
+  background: #fff;
+  /* Set cursor style */
+  cursor: pointer;
+  /* Add smooth transition for all properties */
+  transition: all 0.4s ease;
+}
+
+/* Style rules for the generate meme button on hover */
+.meme-generator .generate-meme-btn:hover {
+  /* Increase padding */
+  padding: 8px 36px;
+  /* Increase border width for better animation */
+  border-left-width: 8px;
+  border-right-width: 8px;
+  /* Increase letter spacing */
+  letter-spacing: 3px;
+  /* Add a shadow effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
